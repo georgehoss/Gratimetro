@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/god"
+    android:gravity="center"
+    android:id="@+id/ll_image"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:padding="5dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:shadowColor="@color/black"
+        android:shadowRadius="15"
+        android:text="@string/me0"
+        android:textAllCaps="true"
+        android:textStyle="italic"
+        android:id="@+id/tv_title"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/black_bg"
+        android:padding="10dp"
+        android:layout_alignParentBottom="true"
+        android:text="@string/salir"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+
+
+</RelativeLayout>

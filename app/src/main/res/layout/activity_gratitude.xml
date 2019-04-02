@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GratitudeActivity">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gratitudmessage"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_title"
+                android:textSize="20sp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:shadowRadius="15"
+                android:shadowColor="@color/black"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/white"
+                />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        >
+
+        <android.support.v7.widget.CardView
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            tools:ignore="NestedWeights">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/ll_bg"
+                android:background="@color/black"
+                android:gravity="center"
+                android:padding="5dp"
+                >
+
+                <TextView
+                    android:id="@+id/tv_cD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:shadowColor="@color/black"
+                    android:shadowRadius="10"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/termometro100"
+                    android:layout_margin="5dp"
+                    android:id="@+id/iv_td"
+                    android:layout_gravity="center"
+                    tools:ignore="ContentDescription" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="@string/thanks"
+                    android:id="@+id/bt_t1"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="26sp"
+                    android:textColor="@color/white"
+                    android:text="@string/god"
+                    android:shadowRadius="10"
+                    android:shadowColor="@color/black"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    />
+
+
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_margin="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/ll_be"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="7dp"
+                android:paddingBottom="5dp">
+
+                <TextView
+                    android:id="@+id/tv_cE"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:shadowColor="@color/black"
+                    android:shadowRadius="10"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/iv_te"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/termometro100"
+                    tools:ignore="ContentDescription" />
+
+                <Button
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/thanks"
+                    android:id="@+id/bt_t2"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:shadowColor="@color/black"
+                    android:shadowRadius="10"
+                    android:text="@string/people_environment"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_margin="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/ll_by"
+                android:padding="5dp"
+                android:background="@color/black"
+                android:gravity="center"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:shadowColor="@color/black"
+                    android:shadowRadius="10"
+                    android:padding="5dp"
+                    android:textSize="20sp"
+                    android:id="@+id/tv_cY"
+                    />
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/termometro100"
+                    android:layout_margin="5dp"
+                    android:id="@+id/iv_ty"
+                    android:layout_gravity="center"
+                    tools:ignore="ContentDescription" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="@string/thanks"
+                    android:id="@+id/bt_t3"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="26sp"
+                    android:textColor="@color/white"
+                    android:text="@string/to_me"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:shadowColor="@color/black"
+                    android:shadowRadius="10"
+                    />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1023064343051",
+    "firebase_url": "https://gratimetro.firebaseio.com",
+    "project_id": "gratimetro",
+    "storage_bucket": "gratimetro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023064343051:android:d87d0b1d377652c9",
+        "android_client_info": {
+          "package_name": "ve.com.phl.gratimetro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1023064343051-cju7g4mj3814d43g0vaok1giao8v66j4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ve.com.phl.gratimetro",
+            "certificate_hash": "ef2b196697264a1d2293252166adab8c286d5b04"
+          }
+        },
+        {
+          "client_id": "1023064343051-gbd814bck67d3skvrnlj8o9630irirlp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJG_2Qe_hkDsCZs1L2WcPBSvChyq3YlI8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1023064343051-gbd814bck67d3skvrnlj8o9630irirlp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

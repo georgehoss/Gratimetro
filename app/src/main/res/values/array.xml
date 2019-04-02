@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_views">
+        <item>@string/all</item>
+        <item>@string/god</item>
+        <item>@string/people_environment</item>
+        <item>@string/to_me</item>
+    </string-array>
+    <string-array name="messages">
+        <item>@string/me0</item>
+        <item>@string/me1</item>
+        <item>@string/me2</item>
+        <item>@string/me3</item>
+        <item>@string/me4</item>
+        <item>@string/me5</item>
+        <item>@string/me6</item>
+    </string-array>
+</resources>
